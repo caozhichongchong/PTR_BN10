@@ -3,6 +3,18 @@
 * metagenomes: /scratch/users/anniz44/Metagenomes/BN10_MG/multiple/
 * [trial data](https://drive.google.com/drive/folders/1ocNlSmVHdIVTr8RG-jGTqX5dc4xbZp1_?usp=sharing)
 * [species information](https://drive.google.com/file/d/1W0ANLpcewOUrQ5RUaFbOezati-xhnmkW/view?usp=sharing)
+# How to work with c3ddb
+* To email their admin (c3ddb-admin@techsquare.com ) for more disk space and file quota
+for example: 2TB of disk space and 10,000,000 number of files
+* To login c3ddb: `ssh -i $your_public_key -l your_c3ddb_name c3ddb-globus.mit.edu`\
+usually your_c3ddb_name = your mit email address\
+sometimes login requires your password\
+`c3ddb-globus.mit.edu` node is used for small tasks, such as python, scp, and rsync (file transfer)\
+`c3ddb01.mit.edu` node is used for submitting jobs
+* To follow the [instructions to set up c3ddb](https://github.com/caozhichongchong/PTR_BN10/blob/main/c3ddb_introduction.docx)
+* To find the genomes and metagenomes on c3ddb
+    * genomes: /scratch/users/anniz44/genomes/donor_species/selected_species/round1/allfasta/*/fasta/
+    * metagenomes: /scratch/users/anniz44/Metagenomes/BN10_MG/multiple/
 # Aligning metagenomes to reference genome
 * [Mapper](https://github.com/mathjeff/Mapper)
 * [Latest Mapper](https://drive.google.com/file/d/1yz9GkTO7aGjcYPov3XmHOkuB_-UxCQKl/view?usp=sharing)
